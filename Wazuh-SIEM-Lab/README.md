@@ -10,19 +10,14 @@ A practical **Wazuh SIEM Home Lab** for learning Security Operations Center (SOC
 
 This repository documents the complete lab setup, from **Wazuh installation on Ubuntu** to **Windows 10 agent deployment and security monitoring**. The guide is designed so that others can follow the same steps and build the lab in their own environment.
 
----
-
 ## 🎯 Objectives
 
 The objective of this lab is to install and configure Wazuh on Ubuntu, deploy a Wazuh agent on a Windows 10 endpoint, verify agent communication, and use the Wazuh Dashboard to monitor and analyze security telemetry.
-
----
 
 ## 🏗️ Wazuh SIEM Lab Architecture
 
 ![Wazuh Dashboard](Screenshots/00-Wazuh-Architecture.png)
 
----
 
 ## 🧰 Environment & Tools
 

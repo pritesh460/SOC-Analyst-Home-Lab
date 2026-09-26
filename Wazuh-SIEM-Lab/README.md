@@ -1,4 +1,12 @@
-# Wazuh SIEM Lab
+<div align="center">
+
+# 🛡️ Wazuh SIEM Lab
+
+### Windows Endpoint Monitoring & Security Analysis Lab
+
+**SIEM • Endpoint Monitoring • Threat Hunting • Security Analysis**
+
+</div>
 
 A practical **Wazuh SIEM Home Lab** for learning Security Operations Center (SOC) monitoring, Windows endpoint security, security event analysis, threat hunting, and vulnerability detection.
 
@@ -12,15 +20,23 @@ The objective of this lab is to install and configure Wazuh on Ubuntu, deploy a 
 
 ---
 
-## 🛠️ Technologies Used
+# 🏗️ Wazuh SIEM Lab Architecture
 
-* **Wazuh SIEM**
-* **Ubuntu Linux**
-* **Windows 10**
-* **VirtualBox**
-* **PowerShell**
-* **Firefox**
-* **Wazuh Dashboard**
+![Wazuh Dashboard](Screenshots/00_Architecture.png)
+
+---
+
+## 🧰 Environment & Tools
+
+| Category | Details |
+|---|---|
+| **SIEM Platform** | Wazuh **v4.14** |
+| **Server** | Ubuntu Linux |
+| **Endpoint** | Windows 10 |
+| **Virtualization** | VirtualBox |
+| **Administration** | PowerShell |
+| **Dashboard** | Wazuh Dashboard |
+| **Web Browser** | Firefox |
 
 ---
 
@@ -124,8 +140,6 @@ Return to the Wazuh Dashboard and open **Active Agents**.
 
 Locate the Windows 10 agent and verify that its status is **Active**.
 
-![Windows Agent Connected](Screenshots/08-Windows-Agent-Connected.png)
-
 Open the agent to review details such as:
 
 * Agent name
@@ -188,20 +202,10 @@ Depending on the endpoint configuration, information may include:
 
 ---
 
-# 🎯 Conclusion
+## 🎯 Conclusion
 
-This lab demonstrates a basic Wazuh SIEM environment with an **Ubuntu Wazuh server and Windows 10 endpoint**.
+This lab successfully demonstrates a Wazuh SIEM environment with an **Ubuntu server and Windows 10 endpoint**. It provides hands-on experience with endpoint onboarding, centralized security monitoring, event analysis, threat hunting, and vulnerability detection using the Wazuh Dashboard.
 
-The lab covers:
-
-* Wazuh installation
-* Wazuh Dashboard access
-* Agent group creation
-* Windows agent deployment
-* Agent connectivity verification
-* Security event monitoring
-* Threat hunting
-* Vulnerability analysis
 
 ---
 

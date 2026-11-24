@@ -1,10 +1,12 @@
-\<div align="center">
+
+
+<div align="center">
 
 # 🔎 ELK SIEM Lab
 
 ### Security Monitoring, Threat Detection & SIEM Dashboard
 
-\</div>
+</div>
 
 A practical **ELK Stack SIEM Home Lab** built on Kali Linux to learn security event monitoring, log analysis, custom detection rules, alert investigation, and SOC dashboard development.
 
